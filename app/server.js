@@ -4,7 +4,7 @@ const fastify = Fastify()
 
 // Declare a route
 fastify.get('/', async function handler (request, reply) {
-  return { hello: `A plicação neste momento esta a rodar no: ${process.env.HOSTNAME}` }
+  return { hello: `A aplicação neste momento esta a rodar no: ${process.env.HOSTNAME}` }
 })
 
 // Run the server!
