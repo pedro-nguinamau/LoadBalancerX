@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Demonstração de uma escalabilidade orizontal atraves do balanço de carga com nginx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pedro-nguinamau"
+  },
+  "license": "ISC",
+  "author": "pedro-nguinamau",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "^5.2.0"
+  }
+}
